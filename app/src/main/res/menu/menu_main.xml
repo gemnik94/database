@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nikhilsridhar.database.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@mipmap/ic_launcher"/>
+
+
+
+
+    </group>
+</menu>

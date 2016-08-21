@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/playerImage"
+            android:padding="10dp"
+            android:scaleType="center"
+            android:src="@mipmap/ic_launcher"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/nameTxt"
+            android:padding="10dp"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/playerImage"
+            android:layout_alignParentRight="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Position"
+            android:id="@+id/posTxt"
+            android:padding="10dp"
+
+            android:layout_alignBottom="@+id/playerImage"
+            android:layout_toRightOf="@+id/playerImage"
+            android:layout_toEndOf="@+id/playerImage" />
+
+
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>
